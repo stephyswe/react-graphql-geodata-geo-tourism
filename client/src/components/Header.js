@@ -4,7 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import MapIcon from "@material-ui/icons/Map";
 import Typography from "@material-ui/core/Typography";
-import { unstable_useMediaQuery as useMediaQuery } from "@material-ui/core/useMediaQuery";
+import { useMediaQuery } from "@material-ui/core/useMediaQuery";
 
 import Context from "../context";
 import Signout from "../components/Auth/Signout";

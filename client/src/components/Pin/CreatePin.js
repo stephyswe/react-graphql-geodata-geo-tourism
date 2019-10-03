@@ -34,9 +34,9 @@ const CreatePin = ({ classes }) => {
     const data = new FormData();
     data.append("file", image);
     data.append("upload_preset", "geopins");
-    data.append("cloud_name", "reedbargercodes");
+    data.append("cloud_name", "stephanieswe");
     const res = await axios.post(
-      "https://api.cloudinary.com/v1_1/reedbargercodes/image/upload",
+      "https://api.cloudinary.com/v1_1/stephanieswe/image/upload",
       data
     );
     return res.data.url;
